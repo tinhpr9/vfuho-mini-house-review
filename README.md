@@ -64,7 +64,17 @@ Script sẽ tự động:
 3. Trộn âm thanh ASMR thi công (35%) với 5 phân đoạn thuyết minh AI được căn giờ chuẩn xác theo hành động.
 4. Tự động sao chép sang `Movies` và `Download` trên điện thoại, đồng thời gửi tín hiệu MediaScanner để xem được ngay trong Thư viện.
 
-### 4. Chạy kiểm thử tự động
+### 4. Render bản Master Hoàn Thiện (Full 167s + Xóa Watermark + Phụ Đề Chữ Vàng)
+```bash
+python3 scripts/render_final_master.py
+```
+Script sẽ tự động:
+1. Xóa sạch watermark di chuyển (`VFuho @vfuho`) trên toàn bộ 6 mốc thời gian bằng thuật toán `delogo`.
+2. Gắn phụ đề tiếng Việt chữ vàng viền đen chuẩn ASS hiển thị nổi bật, dễ đọc trên di động.
+3. Hòa trộn âm thanh 2 lớp: giọng thuyết minh AI `vi-VN-NamMinhNeural` và âm thanh ASMR nguyên bản (35%).
+4. Tự động đồng bộ ngay vào `/storage/emulated/0/Movies` và `/storage/emulated/0/Download`.
+
+### 5. Chạy kiểm thử tự động
 ```bash
 pytest tests/
 ```
@@ -78,9 +88,13 @@ vfuho-mini-house-review/
 ├── specs/
 │   └── storyboard.md       # Bảng phân cảnh chi tiết & lời thoại
 ├── scripts/
-│   ├── generate_voiceover.py # Script sinh TTS tiếng Việt
-│   └── render_pipeline.py    # Pipeline cắt ghép và render video
+│   ├── generate_voiceover.py     # Script sinh TTS tiếng Việt từng tập
+│   ├── generate_full_narration.py# Script sinh TTS full 5 đoạn
+│   ├── render_pipeline.py        # Pipeline cắt ghép 4 tập + highlight
+│   ├── render_full_clean.py      # Pipeline render full clean
+│   └── render_final_master.py    # Pipeline Master: Xóa watermark + Add phụ đề
 ├── tests/
-│   └── test_pipeline.py    # Bộ test kiểm tra chất lượng tự động
-└── output/                 # Thư mục chứa audio, phụ đề và video hoàn thiện
+│   └── test_pipeline.py    # Bộ test kiểm tra chất lượng tự động (6 tests passed)
+└── output/                 # Thư mục chứa audio, phụ đề ASS/SRT và video hoàn thiện
 ```
+

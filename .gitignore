@@ -4,5 +4,7 @@ __pycache__/
 .pytest_cache/
 output/*.mp4
 output/*.jpg
+output/*.png
 output/*.vtt
 *.log
+

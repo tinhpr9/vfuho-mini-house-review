@@ -54,3 +54,34 @@ def test_full_clean_scripts_and_assets():
         assert os.path.isfile(path), f"full_part{i}.mp3 must exist"
         assert os.path.getsize(path) > 1000
 
+def test_final_master_video_and_subtitles():
+    master_script = os.path.join(SCRIPTS_DIR, "render_final_master.py")
+    sub_file = os.path.join(OUTPUT_DIR, "vfuho_subtitles.ass")
+    master_video = os.path.join(OUTPUT_DIR, "VFuho_Full_Master_Sub_NoWatermark.mp4")
+
+    assert os.path.isfile(master_script), "render_final_master.py must exist"
+    assert os.path.isfile(sub_file), "vfuho_subtitles.ass must exist"
+    assert os.path.isfile(master_video), "Master video must exist"
+    assert os.path.getsize(master_video) > 50 * 1024 * 1024, "Master video must be > 50MB"
+
+    # Verify duration
+    cmd = [
+        "ffprobe", "-v", "error",
+        "-show_entries", "format=duration",
+        "-of", "default=noprint_wrappers=1:nokey=1",
+        master_video
+    ]
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    assert res.returncode == 0
+    duration = float(res.stdout.strip())
+    assert 166.0 <= duration <= 168.0, f"Master video duration {duration}s must be ~167s"
+
+    # Verify device storage sync
+    movies_target = "/storage/emulated/0/Movies/VFuho_Full_Master_Sub_NoWatermark.mp4"
+    download_target = "/storage/emulated/0/Download/VFuho_Full_Master_Sub_NoWatermark.mp4"
+    if os.path.isdir("/storage/emulated/0/Movies"):
+        assert os.path.isfile(movies_target), "Video must be synced to /storage/emulated/0/Movies"
+    if os.path.isdir("/storage/emulated/0/Download"):
+        assert os.path.isfile(download_target), "Video must be synced to /storage/emulated/0/Download"
+
+

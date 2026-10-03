@@ -1,0 +1,40 @@
+[Script Info]
+Title: VFuho Mini House Review
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,52,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,60,60,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:06.50,Default,,0,0,0,,Chào mừng các bạn đến với quy trình xây dựng trọn gói
+ một căn biệt thự mini có garage cực kỳ đẳng cấp!
+Dialogue: 0,0:00:06.50,0:00:10.50,Default,,0,0,0,,Bước đầu tiên không thể thiếu là tạo dựng phần nền móng kiên cố.
+Dialogue: 0,0:00:10.50,0:00:15.00,Default,,0,0,0,,Từng thanh thép tí hon được cắt uốn,
+ đan thành những lồng cột trụ chắc chắn.
+Dialogue: 0,0:00:15.00,0:00:20.08,Default,,0,0,0,,Sau đó đóng cốp pha gỗ và đổ bê tông mác cao,
+ cán phẳng từng milimet mặt sàn.
+Dialogue: 0,0:00:33.00,0:00:38.50,Default,,0,0,0,,Khi phần móng đã đông kết, từng viên gạch thẻ đỏ mini
+ chỉ bằng đầu ngón tay bắt đầu được xếp lớp thẳng tắp.
+Dialogue: 0,0:00:38.50,0:00:43.00,Default,,0,0,0,,Từng đường mạch vữa được miết cực kỳ gọn gàng.
+Dialogue: 0,0:00:43.00,0:00:50.71,Default,,0,0,0,,Điểm nhấn kiến trúc là ô cửa sổ vòm tròn cổ điển,
+ kết hợp cùng những cột bê tông cốt thép chịu lực vững chãi.
+Dialogue: 0,0:01:15.00,0:01:21.50,Default,,0,0,0,,Tiếp theo là công đoạn trát vữa xi măng.
+ Bằng chiếc bay phụ hồ mini, người thợ khéo léo miết phẳng từng mảng tường.
+Dialogue: 0,0:01:21.50,0:01:26.00,Default,,0,0,0,,Che đi những vết nối gạch thô ráp một cách hoàn hảo.
+Dialogue: 0,0:01:26.00,0:01:32.88,Default,,0,0,0,,Và khoảnh khắc gây nghiện nhất là chiếc chổi rơm tí hon
+ quét sạch từng vụn vữa trên sàn nhà!
+Dialogue: 0,0:01:50.00,0:01:55.00,Default,,0,0,0,,Bước vào giai đoạn quan trọng nhất: thi công hệ mái.
+Dialogue: 0,0:01:55.00,0:02:00.50,Default,,0,0,0,,Khung xà gồ được lắp đặt chuẩn xác,
+ từng dải ngói lượn sóng màu đen tuyền được gắn so le hoàn hảo.
+Dialogue: 0,0:02:00.50,0:02:06.01,Default,,0,0,0,,Mái ngói đen không chỉ tạo vẻ sang trọng cổ kính
+ mà còn che chắn trọn vẹn cho ngôi nhà.
+Dialogue: 0,0:02:28.00,0:02:34.50,Default,,0,0,0,,Cuối cùng, toàn bộ tường ngoài được phủ lớp sơn trắng tinh khôi,
+ kết hợp hài hòa với phần garage mở rộng bên cạnh.
+Dialogue: 0,0:02:34.50,0:02:39.00,Default,,0,0,0,,Chỉ với xi măng, cát và gạch mini,
+ một kiệt tác kiến trúc thu nhỏ đã chính thức hoàn thiện!
+Dialogue: 0,0:02:39.00,0:02:44.27,Default,,0,0,0,,Bạn chấm mấy điểm cho công trình tí hon đỉnh cao này?
