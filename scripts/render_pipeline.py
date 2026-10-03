@@ -109,7 +109,28 @@ def render_episode(ep, output_dir):
 
     size_mb = os.path.getsize(final_video) / (1024 * 1024)
     print(f"  ✓ Rendered: {final_video} ({size_mb:.2f} MB)")
+    sync_to_device_storage(final_video, ep)
     return True
+
+def sync_to_device_storage(final_video, ep):
+    import shutil
+    targets = ["/storage/emulated/0/Movies", "/storage/emulated/0/Download"]
+    name_map = {
+        "ep1": "VFuho_Tap1_Do_Mong_Cot_Thep_Mini.mp4",
+        "ep2": "VFuho_Tap2_Xay_Gach_The_O_Cua_Tron.mp4",
+        "ep3": "VFuho_Tap3_Trat_Vua_Phang_Ve_Sinh_ASMR.mp4",
+        "ep4": "VFuho_Tap4_Lop_Ngoi_Den_Hoan_Thien.mp4",
+        "highlight_60s": "VFuho_Highlight_Biet_Thu_Mini_Trong_Mo.mp4",
+    }
+    clean_name = name_map.get(ep["id"], os.path.basename(final_video))
+    for target in targets:
+        if os.path.isdir(target):
+            dest = os.path.join(target, clean_name)
+            try:
+                shutil.copyfile(final_video, dest)
+                print(f"  -> Synced to: {dest}")
+            except Exception:
+                pass
 
 def main():
     output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "output"))
