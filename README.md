@@ -43,17 +43,28 @@ python3 scripts/generate_voiceover.py
 ```
 Script sẽ tự động kết nối Edge-TTS tiếng Việt (`vi-VN-NamMinhNeural`), tạo các tệp âm thanh `.mp3` và phụ đề `.vtt` tương ứng trong thư mục `output/`.
 
-### 2. Render chuỗi video hoàn chỉnh
+### 2. Render chuỗi video hoàn chỉnh từng tập
 ```bash
 python3 scripts/render_pipeline.py
 ```
 Script sẽ tự động:
 1. Cắt từng phân cảnh chính xác từ video gốc.
 2. Trộn âm thanh ASMR nguyên bản (35%) với giọng đọc thuyết minh (100%).
-3. Thêm banner tiêu đề vàng nổi bật ở góc trên `(y=140)`.
-4. Xuất video chất lượng cao 1080x1920 lưu tại `output/*_review.mp4`.
+3. Xuất video chất lượng cao 1080x1920 lưu tại `output/*_review.mp4`.
+4. Tự động đồng bộ bản sao sang `/storage/emulated/0/Movies` và `/storage/emulated/0/Download`.
 
-### 3. Chạy kiểm thử tự động
+### 3. Render bản Full Liền Mạch 167s (Clean - Không Chữ Tựa Đề)
+```bash
+python3 scripts/generate_full_narration.py
+python3 scripts/render_full_clean.py
+```
+Script sẽ tự động:
+1. Giữ nguyên 100% video gốc (đầy đủ 167 giây, không cắt ghép đứt đoạn).
+2. Xóa bỏ hoàn toàn chữ tựa đề / banner, giữ khung hình sạch đẹp 100%.
+3. Trộn âm thanh ASMR thi công (35%) với 5 phân đoạn thuyết minh AI được căn giờ chuẩn xác theo hành động.
+4. Tự động sao chép sang `Movies` và `Download` trên điện thoại, đồng thời gửi tín hiệu MediaScanner để xem được ngay trong Thư viện.
+
+### 4. Chạy kiểm thử tự động
 ```bash
 pytest tests/
 ```

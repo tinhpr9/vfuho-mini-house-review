@@ -45,3 +45,18 @@
   - `40s - 60s`: Lợp mái ngói đen và khoe toàn cảnh biệt thự mini hoàn thiện.
 * **Lời thoại thuyết minh:**
   > "Chỉ với 60 giây, đây là hành trình biến xi măng và gạch mini thành một căn biệt thự hoàn mỹ. Từ việc đan lồng thép, đổ móng bê tông kiên cố, cho đến khi từng hàng gạch đỏ mọc lên thẳng tắp. Mỗi động tác miết vữa, quét sàn đều mang lại cảm giác thư giãn tuyệt đối. Và khi mái ngói đen được lợp xong, một kiệt tác kiến trúc tí hon đã chính thức hoàn thiện. Đỉnh cao của sự tỉ mỉ là đây!"
+
+---
+
+### Bản Full Master Liền Mạch: Toàn Bộ Quá Trình 167s (Clean - Không Tựa Đề)
+* **Tổng thời lượng:** `02:47` (167 giây) - Giữ nguyên 100% video gốc.
+* **Phong cách hiển thị:** **Clean 100%** - Không chèn banner tựa đề tập, không chèn chữ che khuất khung hình, giữ góc nhìn chân thực và tự nhiên nhất.
+* **Thiết kế âm thanh:**
+  - Lớp nền: Âm thanh ASMR gốc (tiếng bay trát vữa, gõ gạch, quét chổi) giữ ở mức 35% âm lượng xuyên suốt toàn bộ video.
+  - Lớp thoại: 5 phân đoạn thuyết minh tiếng Việt chuẩn giọng đọc AI Nam Minh được căn thời gian phát khớp chính xác với từng hành động trên màn hình:
+    1. `00:01`: Giới thiệu tổng quan & Đổ bê tông móng kiên cố (`full_part1.mp3`).
+    2. `00:33`: Kỹ thuật đặt gạch đỏ & Ghép ô cửa sổ tròn (`full_part2.mp3`).
+    3. `00:75`: Miết phẳng vữa xi măng & Khoảnh khắc quét dọn chổi rơm mini (`full_part3.mp3`).
+    4. `01:10`: Lắp vì kèo xà gồ & Lợp mái ngói đen cổ trang (`full_part4.mp3`).
+    5. `01:48`: Sơn phủ trắng hoàn thiện & Toàn cảnh biệt thự mini có garage (`full_part5.mp3`).
+

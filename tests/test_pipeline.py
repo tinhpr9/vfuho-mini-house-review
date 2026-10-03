@@ -43,3 +43,14 @@ def test_audio_duration_valid():
     assert res.returncode == 0
     duration = float(res.stdout.strip())
     assert 10.0 <= duration <= 40.0, f"Duration {duration}s must be between 10s and 40s"
+
+def test_full_clean_scripts_and_assets():
+    full_gen = os.path.join(SCRIPTS_DIR, "generate_full_narration.py")
+    full_render = os.path.join(SCRIPTS_DIR, "render_full_clean.py")
+    assert os.path.isfile(full_gen), "generate_full_narration.py must exist"
+    assert os.path.isfile(full_render), "render_full_clean.py must exist"
+    for i in range(1, 6):
+        path = os.path.join(OUTPUT_DIR, f"full_part{i}.mp3")
+        assert os.path.isfile(path), f"full_part{i}.mp3 must exist"
+        assert os.path.getsize(path) > 1000
+
