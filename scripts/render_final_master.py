@@ -22,12 +22,18 @@ FINAL_NAME = "VFuho_Full_Master_Sub_NoWatermark.mp4"
 FINAL_PATH = os.path.join(OUTPUT_DIR, FINAL_NAME)
 
 AUDIO_PARTS = [
-    {"file": "full_part1.mp3", "delay_ms": 1000},
-    {"file": "full_part2.mp3", "delay_ms": 33000},
-    {"file": "full_part3.mp3", "delay_ms": 75000},
-    {"file": "full_part4.mp3", "delay_ms": 110000},
-    {"file": "full_part5.mp3", "delay_ms": 148000},
+    {"file": "dense_narration/dense_part1.mp3", "delay_ms": 1000},
+    {"file": "dense_narration/dense_part2.mp3", "delay_ms": 16500},
+    {"file": "dense_narration/dense_part3.mp3", "delay_ms": 33500},
+    {"file": "dense_narration/dense_part4.mp3", "delay_ms": 52000},
+    {"file": "dense_narration/dense_part5.mp3", "delay_ms": 71000},
+    {"file": "dense_narration/dense_part6.mp3", "delay_ms": 90000},
+    {"file": "dense_narration/dense_part7.mp3", "delay_ms": 109000},
+    {"file": "dense_narration/dense_part8.mp3", "delay_ms": 126500},
+    {"file": "dense_narration/dense_part9.mp3", "delay_ms": 144500},
+    {"file": "dense_narration/dense_part10.mp3", "delay_ms": 155200},
 ]
+
 
 # Watermark delogo intervals identified via visual and OCR scan
 DELOGO_INTERVALS = [
@@ -64,10 +70,14 @@ def sync_to_storage():
             try:
                 shutil.copyfile(FINAL_PATH, dest)
                 print(f"  ✓ Copied to: {dest} ({os.path.getsize(dest)} bytes)")
-                subprocess.run(
-                    ["su", "-c", f"am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file://{dest}"],
-                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
-                )
+                try:
+                    subprocess.run(
+                        ["su", "-c", f"am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file://{dest}"],
+                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=5
+                    )
+                except Exception:
+                    pass
+
             except Exception as e:
                 print(f"  ✗ Failed to copy to {target}: {e}")
 
@@ -104,7 +114,7 @@ def main():
         amix_inputs.append(f"[a{idx}]")
 
     amix_str = "".join(amix_inputs)
-    a_filters.append(f"{amix_str}amix=inputs=5:duration=longest:normalize=0[narration]")
+    a_filters.append(f"{amix_str}amix=inputs={len(AUDIO_PARTS)}:duration=longest:normalize=0[narration]")
     a_filters.append("[0:a]volume=0.35[bg]")
     a_filters.append("[bg][narration]amix=inputs=2:duration=first:normalize=0[aout]")
     a_filter_str = ";".join(a_filters)

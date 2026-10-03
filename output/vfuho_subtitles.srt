@@ -1,74 +1,93 @@
 1
-00:00:01,000 --> 00:00:06,500
-Chào mừng các bạn đến với quy trình xây dựng trọn gói
-một căn biệt thự mini có garage cực kỳ đẳng cấp!
+00:00:01,000 --> 00:00:07,000
+Chào mừng anh em quay trở lại với series kiến trúc tí hon!
+Hôm nay chúng ta cùng theo dõi quy trình thi công biệt thự mini.
 
 2
-00:00:06,500 --> 00:00:10,500
-Bước đầu tiên không thể thiếu là tạo dựng phần nền móng kiên cố.
+00:00:07,000 --> 00:00:13,480
+Căn nhà có cả gara xe hơi cực kỳ đẳng cấp
+từ bàn tay vàng của bác thợ phụ hồ này!
 
 3
-00:00:10,500 --> 00:00:15,000
-Từng thanh thép tí hon được cắt uốn,
-đan thành những lồng cột trụ chắc chắn.
+00:00:16,500 --> 00:00:23,000
+Bắt đầu ngay từ phần móng nha. Từng thanh thép nhỏ như tăm tre
+được uốn nắn, đan thành những lồng cột trụ siêu chuẩn chỉ.
 
 4
-00:00:15,000 --> 00:00:20,080
-Sau đó đóng cốp pha gỗ và đổ bê tông mác cao,
-cán phẳng từng milimet mặt sàn.
+00:00:23,000 --> 00:00:30,490
+Sau khi ghép cốp pha gỗ, bác thợ đổ bê tông mác cao
+rồi cán phẳng lì từng milimet mặt sàn.
 
 5
-00:00:33,000 --> 00:00:38,500
-Khi phần móng đã đông kết, từng viên gạch thẻ đỏ mini
-chỉ bằng đầu ngón tay bắt đầu được xếp lớp thẳng tắp.
+00:00:33,500 --> 00:00:40,500
+Khi móng đã đông kết cứng cáp, gạch thẻ đỏ tí hon lên sàn.
+Bác thợ đặt từng viên đều tăm tắp, miết mạch vữa chuẩn chỉ.
 
 6
-00:00:38,500 --> 00:00:43,000
-Từng đường mạch vữa được miết cực kỳ gọn gàng.
+00:00:40,500 --> 00:00:48,280
+Cứ một lớp gạch lại thêm một lớp vữa dẻo mịn,
+nhìn thôi đã thấy mê rồi!
 
 7
-00:00:43,000 --> 00:00:50,710
-Điểm nhấn kiến trúc là ô cửa sổ vòm tròn cổ điển,
-kết hợp cùng những cột bê tông cốt thép chịu lực vững chãi.
+00:00:52,000 --> 00:00:58,000
+Điểm nhấn kiến trúc cực đỉnh chính là ô cửa sổ vòm tròn cổ điển.
 
 8
-00:01:15,000 --> 00:01:21,500
-Tiếp theo là công đoạn trát vữa xi măng.
-Bằng chiếc bay phụ hồ mini, người thợ khéo léo miết phẳng từng mảng tường.
+00:00:58,000 --> 00:01:03,930
+Xung quanh được giằng thêm các cột bê tông cốt thép chịu lực,
+bảo đảm độ kiên cố tuyệt đối cho cả ngôi nhà.
 
 9
-00:01:21,500 --> 00:01:26,000
-Che đi những vết nối gạch thô ráp một cách hoàn hảo.
+00:01:11,000 --> 00:01:17,500
+Bác thợ còn cẩn thận mở rộng thêm cả phần garage phụ bên hông.
+Từng bức tường dần cao lên.
 
 10
-00:01:26,000 --> 00:01:32,880
-Và khoảnh khắc gây nghiện nhất là chiếc chổi rơm tí hon
-quét sạch từng vụn vữa trên sàn nhà!
+00:01:17,500 --> 00:01:23,550
+Các góc vuông được căn ke chính xác tuyệt đối,
+không một chi tiết nào bị lệch cữ.
 
 11
-00:01:50,000 --> 00:01:55,000
-Bước vào giai đoạn quan trọng nhất: thi công hệ mái.
+00:01:30,000 --> 00:01:36,000
+Và đây rồi, khoảnh khắc trát vữa gây nghiện nhất mạng xã hội!
+Chiếc bay mini lướt thoăn thoắt trên tường.
 
 12
-00:01:55,000 --> 00:02:00,500
-Khung xà gồ được lắp đặt chuẩn xác,
-từng dải ngói lượn sóng màu đen tuyền được gắn so le hoàn hảo.
+00:01:36,000 --> 00:01:41,380
+Từng mảng vữa dẻo được miết phẳng lì,
+giấu nhẹm đi mọi đường gạch thô ráp.
 
 13
-00:02:00,500 --> 00:02:06,010
-Mái ngói đen không chỉ tạo vẻ sang trọng cổ kính
-mà còn che chắn trọn vẹn cho ngôi nhà.
+00:01:49,000 --> 00:01:55,000
+Chiếc chổi rơm tí hon quét sạch từng vụn vữa trên sàn nhà,
+tạo nên một không gian gọn gàng tinh tươm.
 
 14
-00:02:28,000 --> 00:02:34,500
-Cuối cùng, toàn bộ tường ngoài được phủ lớp sơn trắng tinh khôi,
-kết hợp hài hòa với phần garage mở rộng bên cạnh.
+00:01:55,000 --> 00:02:01,260
+Xem đến đoạn này cảm giác mọi căng thẳng
+mệt mỏi đều tan biến hết đúng không các bạn?
 
 15
-00:02:34,500 --> 00:02:39,000
-Chỉ với xi măng, cát và gạch mini,
-một kiệt tác kiến trúc thu nhỏ đã chính thức hoàn thiện!
+00:02:06,500 --> 00:02:13,000
+Bây giờ chuyển sang phần làm mái nè.
+Khung xà gồ gỗ được dựng lên chắc chắn.
 
 16
-00:02:39,000 --> 00:02:44,270
-Bạn chấm mấy điểm cho công trình tí hon đỉnh cao này?
+00:02:13,000 --> 00:02:19,820
+Từng dải ngói đen lượn sóng được gắn so le cẩn thận,
+mái ngói đen tuyền vừa sang trọng vừa cổ kính.
+
+17
+00:02:24,500 --> 00:02:34,680
+Bước cuối cùng là khoác lên ngôi nhà lớp sơn trắng tinh khôi.
+Từng đường nét kiến trúc nổi bật rõ rệt dưới ánh sáng.
+
+18
+00:02:35,200 --> 00:02:41,000
+Chỉ từ cát, xi măng và gạch mini,
+một kiệt tác biệt thự đã hoàn thiện xuất sắc!
+
+19
+00:02:41,000 --> 00:02:46,140
+Anh em chấm mấy điểm cho bác thợ này?
+Đừng quên thả tim và follow nhé!

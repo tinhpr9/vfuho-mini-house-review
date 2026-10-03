@@ -64,15 +64,18 @@ Script sẽ tự động:
 3. Trộn âm thanh ASMR thi công (35%) với 5 phân đoạn thuyết minh AI được căn giờ chuẩn xác theo hành động.
 4. Tự động sao chép sang `Movies` và `Download` trên điện thoại, đồng thời gửi tín hiệu MediaScanner để xem được ngay trong Thư viện.
 
-### 4. Render bản Master Hoàn Thiện (Full 167s + Xóa Watermark + Phụ Đề Chữ Vàng)
+### 4. Render bản Master Hoàn Thiện (Full 167s + Thuyết Minh Dày Dặn 10 Phân Đoạn + Xóa Watermark + Phụ Đề Chữ Vàng)
 ```bash
+python3 scripts/generate_dense_narration.py
 python3 scripts/render_final_master.py
 ```
 Script sẽ tự động:
-1. Xóa sạch watermark di chuyển (`VFuho @vfuho`) trên toàn bộ 6 mốc thời gian bằng thuật toán `delogo`.
-2. Gắn phụ đề tiếng Việt chữ vàng viền đen chuẩn ASS hiển thị nổi bật, dễ đọc trên di động.
-3. Hòa trộn âm thanh 2 lớp: giọng thuyết minh AI `vi-VN-NamMinhNeural` và âm thanh ASMR nguyên bản (35%).
-4. Tự động đồng bộ ngay vào `/storage/emulated/0/Movies` và `/storage/emulated/0/Download`.
+1. **Thuyết minh dày dặn & liên tục**: Nâng cấp kịch bản lên 10 phân đoạn liền mạch (~125s thoại / 167s video, bao phủ 75%), giải quyết triệt để tình trạng nói thưa thớt, chỉ để lại các khoảng thở ASMR ngắn 2-3s cực kỳ cuốn hút.
+2. **Xóa sạch watermark di chuyển (`VFuho @vfuho`)** trên toàn bộ 6 mốc thời gian bằng thuật toán `delogo`.
+3. **Gắn phụ đề tiếng Việt chữ vàng viền đen chuẩn ASS** hiển thị nổi bật, chuẩn từng giây theo 10 phân đoạn thoại.
+4. **Hòa trộn âm thanh 2 lớp**: Giọng thuyết minh AI `vi-VN-NamMinhNeural` (100%) và âm thanh ASMR thi công gốc (35%).
+5. **Tự động đồng bộ ngay** vào `/storage/emulated/0/Movies` và `/storage/emulated/0/Download`.
+
 
 ### 5. Chạy kiểm thử tự động
 ```bash

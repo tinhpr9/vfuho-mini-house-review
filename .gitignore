@@ -6,5 +6,8 @@ output/*.mp4
 output/*.jpg
 output/*.png
 output/*.vtt
+output/*.txt
+output/test_*
+output/dense_audio/
 *.log
 

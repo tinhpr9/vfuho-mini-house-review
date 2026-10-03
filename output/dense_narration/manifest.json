@@ -1,0 +1,102 @@
+[
+  {
+    "id": "dense_part1",
+    "file": "output/dense_narration/dense_part1.mp3",
+    "text": "Chào mừng anh em quay trở lại với series kiến trúc tí hon! Hôm nay chúng ta sẽ cùng theo dõi trọn vẹn quy trình thi công một căn biệt thự mini có cả gara xe hơi cực kỳ đẳng cấp từ bàn tay vàng của bác thợ phụ hồ này.",
+    "duration": 12.48,
+    "target_start": 1.0,
+    "start": 1.0,
+    "end": 13.48,
+    "delay_ms": 1000
+  },
+  {
+    "id": "dense_part2",
+    "file": "output/dense_narration/dense_part2.mp3",
+    "text": "Bắt đầu ngay từ phần móng nha. Từng thanh thép nhỏ như tăm tre được uốn nắn, đan thành những lồng cột trụ siêu chuẩn chỉ. Sau khi ghép cốp pha gỗ, bác thợ đổ bê tông mác cao rồi cán phẳng lì từng milimet mặt sàn.",
+    "duration": 13.992,
+    "target_start": 16.5,
+    "start": 16.5,
+    "end": 30.492,
+    "delay_ms": 16500
+  },
+  {
+    "id": "dense_part3",
+    "file": "output/dense_narration/dense_part3.mp3",
+    "text": "Khi móng đã đông kết cứng cáp, giờ là lúc những viên gạch thẻ đỏ tí hon lên sàn. Bác thợ đặt từng viên đều tăm tắp, miết mạch vữa chuẩn không cần chỉnh. Cứ một lớp gạch lại thêm một lớp vữa dẻo mịn, nhìn thôi đã thấy mê rồi!",
+    "duration": 14.784,
+    "target_start": 33.5,
+    "start": 33.5,
+    "end": 48.284,
+    "delay_ms": 33500
+  },
+  {
+    "id": "dense_part4",
+    "file": "output/dense_narration/dense_part4.mp3",
+    "text": "Điểm nhấn kiến trúc cực đỉnh ở gian nhà chính là chiếc cửa sổ vòm tròn phong cách cổ điển. Xung quanh được giằng thêm các cột bê tông cốt thép chịu lực, bảo đảm độ kiên cố tuyệt đối cho cả ngôi nhà nhỏ.",
+    "duration": 11.928,
+    "target_start": 52.0,
+    "start": 52.0,
+    "end": 63.928,
+    "delay_ms": 52000
+  },
+  {
+    "id": "dense_part5",
+    "file": "output/dense_narration/dense_part5.mp3",
+    "text": "Không chỉ có gian nhà chính đâu, bác thợ còn cẩn thận mở rộng thêm cả phần garage phụ bên hông nữa. Từng bức tường dần cao lên, các góc vuông được căn ke chính xác tuyệt đối, không một chi tiết nào bị lệch cữ.",
+    "duration": 12.552,
+    "target_start": 71.0,
+    "start": 71.0,
+    "end": 83.55199999999999,
+    "delay_ms": 71000
+  },
+  {
+    "id": "dense_part6",
+    "file": "output/dense_narration/dense_part6.mp3",
+    "text": "Và đây rồi, khoảnh khắc trát vữa gây nghiện nhất trên mạng xã hội! Chiếc bay mini lướt thoăn thoắt trên bề mặt tường, từng mảng vữa dẻo được miết phẳng lì, giấu nhẹm đi mọi đường gạch thô ráp.",
+    "duration": 11.376,
+    "target_start": 90.0,
+    "start": 90.0,
+    "end": 101.376,
+    "delay_ms": 90000
+  },
+  {
+    "id": "dense_part7",
+    "file": "output/dense_narration/dense_part7.mp3",
+    "text": "Chưa hết đâu nha, chiếc chổi rơm tí hon quét sạch từng vụn vữa trên sàn nhà, tạo nên một không gian gọn gàng tinh tươm. Xem đến đoạn này cảm giác mọi căng thẳng mệt mỏi đều tan biến hết đúng không các bạn?",
+    "duration": 12.264,
+    "target_start": 109.0,
+    "start": 109.0,
+    "end": 121.264,
+    "delay_ms": 109000
+  },
+  {
+    "id": "dense_part8",
+    "file": "output/dense_narration/dense_part8.mp3",
+    "text": "Bây giờ chuyển sang phần làm mái nè. Khung xà gồ gỗ được dựng lên chắc chắn, sau đó từng dải ngói lượn sóng màu đen mun được gắn so le cẩn thận. Mái ngói đen tuyền nhìn vừa sang trọng lại vừa cổ kính.",
+    "duration": 13.32,
+    "target_start": 126.5,
+    "start": 126.5,
+    "end": 139.82,
+    "delay_ms": 126500
+  },
+  {
+    "id": "dense_part9",
+    "file": "output/dense_narration/dense_part9.mp3",
+    "text": "Bước cuối cùng là khoác lên ngôi nhà lớp sơn trắng tinh khôi. Toàn bộ tường ngoài và gara kết hợp hài hòa, từng đường nét kiến trúc nổi bật rõ rệt dưới ánh sáng.",
+    "duration": 10.176,
+    "target_start": 144.5,
+    "start": 144.5,
+    "end": 154.676,
+    "delay_ms": 144500
+  },
+  {
+    "id": "dense_part10",
+    "file": "output/dense_narration/dense_part10.mp3",
+    "text": "Chỉ từ cát, xi măng và những viên gạch nhỏ xíu, một kiệt tác biệt thự mini hoàn hảo đã ra đời. Anh em chấm cho tay nghề bác thợ này mấy điểm? Đừng quên thả tim và follow nhé!",
+    "duration": 12.24,
+    "target_start": 156.5,
+    "start": 156.5,
+    "end": 168.74,
+    "delay_ms": 156500
+  }
+]
